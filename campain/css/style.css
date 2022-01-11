@@ -1,0 +1,177 @@
+/* This is for whole body or page */
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* This helps to manage the float: left , right (This is a good practice)*/
+.clear{
+    clear:both
+}
+body{
+    background-color: white;
+    line-height: 1.6em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+header{
+    background-color: #333;
+}
+.wrapper{
+    width: 80%;
+}
+.logo{
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin: 10px 0;
+}
+.logo h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 50px;
+}
+.social_icon{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.social_icon a{
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    background-color: white;
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px 5px;
+    border: 5px;
+    font-weight: bold;
+}
+.social_icon a:hover{
+    background-color: gray;
+    transition: 0.8s ease;
+    padding: 10px 15px;
+    color: white;
+}
+
+nav{
+    list-style:none;
+    background-color: gray;
+}
+nav.wrapper{
+    width: 80%;
+}
+nav ul {
+    padding: 5px;
+}
+nav ul li{
+    display: inline-block;
+    list-style:none;
+    padding: 5px;
+}
+nav li a{
+    text-decoration: none;
+    color: #333;
+    padding: 1px 10px;
+}
+li .active a{
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+}
+nav ul li a:hover{
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    transition: 0.3s ease;
+}
+#content.wrapper{
+    width: 100%;
+}
+
+.boxes{
+    display: flex;
+}
+.box{
+    padding: 10px 5px ;
+}
+.box img{
+    width: 100%;
+}
+.box h2 a{
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    margin: 20px 0px;
+    display: inline-block;
+}
+.box h2 a:hover{
+    color: black;
+}
+.box .read{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    transition: 1s ease;
+}
+.box .read:hover{
+    color: black;
+    background-color: white;
+}
+.aboutcom{
+    text-align: center;
+    margin-top: 10px;
+    line-height: 2em;
+}
+.aboutcom h3{
+    font-size: 25px;
+}
+.aboutcom a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    display: block;
+    transition: 1s ease;
+}
+.aboutcom a:hover{
+    color: black;
+    background-color: white;
+}
+footer{
+    background-color:gray;
+    padding: 10px;
+}
+.last{
+    display: flex;
+}
+.boxx{
+    width: 33%;
+    text-align: center;
+}
+.boxx i{
+    color: rgb(10, 78, 224);
+    font-size: 25px;
+}
+.boxx i:hover{
+    color: black;
+    transition: 0.6s ease;
+}
+.iti_table{
+    width: 400px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+.iti_table tr{
+    padding: 10px 0px;
+}
+.odd{
+    background-color: gray;    
+}

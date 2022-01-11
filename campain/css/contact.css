@@ -1,0 +1,127 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clear{
+    clear:both
+}
+body{
+	background-color: lightblue;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../Nepal.jpg);
+	transition: 0.8s ease;
+    line-height: 1.6em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+header{
+    background-color: transparent;
+    border: 1px solid black;
+    color: white;
+}
+.wrapper{
+    width: 80%;
+}
+.logo{
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin: 10px 0;
+}
+.logo h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 50px;
+}
+.social_icon{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.social_icon a{
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    background-color: white;
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px 5px;
+    border: 5px;
+    font-weight: bold;
+    border: 1px solid black;
+}
+.social_icon a:hover{
+    background-color: gray;
+    transition: 0.8s ease;
+    padding: 10px 15px;
+    color: white;
+}
+nav{
+    list-style:none;
+    background-color: transparent;
+    border: 1px solid black;
+}
+nav.wrapper{
+    width: 80%;
+}
+nav ul {
+    padding: 5px;
+}
+nav ul li{
+    display: inline-block;
+    list-style:none;
+    padding: 5px;
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+    padding: 1px 10px;
+}
+li .active a{
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+}
+nav ul li a:hover{
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    transition: 0.3s ease;
+}
+footer{
+    background-color:transparent;
+    padding: 10px;
+}
+.last{
+    display: flex;
+}
+.boxx{
+    width: 33%;
+    text-align: center;
+}
+.boxx i{
+    color: rgb(10, 78, 224);
+    font-size: 25px;
+}
+.boxx i:hover{
+    color: black;
+    transition: 0.6s ease;
+}
+#contact_page{
+    margin: 20px 0;
+    /* background: red; */
+    padding: 20px 0;
+    color: white;
+}
+
+.row{
+    display: flex;
+    width: 100%;
+    border: 1px solid black;
+}
+.col{
+    width: 50%;
+    border: 1px solid black;
+}
